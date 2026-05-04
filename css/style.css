@@ -72,3 +72,37 @@ textarea {
 .titulo-form {
     margin-bottom: 15px;
 }
+
+.form-body {
+    padding: 30px;
+}
+
+.titulo-form {
+    margin-bottom: 15px;
+}
+
+.form-body p {
+    margin-bottom: 20px;
+}
+
+.campo-obrigatorio {
+    color: red;
+}
+
+.caixaInputs{
+    margin-bottom: 35px;
+}
+
+.blok{
+    display: block;
+}
+
+.caixaOpcinal{
+    display: inline-block;
+    margin: 0 30px 0 30px;
+}
+
+.caixaOpcinal li{
+    list-style: none;
+    margin-bottom: 5px;
+}
