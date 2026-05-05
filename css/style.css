@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: fuchsia;
+    background-color: #ff00ff; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,8 +22,13 @@ input {
     padding: 10px 0;
 }
 
-input[type="text"], input[type="number"], input[type="date"], input[type="file"], textarea {
-    width: 400px;
+input[type="text"], 
+input[type="number"], 
+input[type="date"], 
+input[type="file"], 
+textarea {
+    width: 100%;
+    max-width: 400px;
 }
 
 textarea {
@@ -41,7 +46,8 @@ textarea {
     margin-top: 0;
 }
 
-.from-conteienr {
+
+.form-container {
     background-color: #dfdfdf;
     width: 60%;
     margin: 0 auto;
@@ -49,12 +55,13 @@ textarea {
     top: -46px;
 }
 
-.from-header {
+
+.form-header {
     border-bottom: 1px solid #dfdfdf;
     height: 45px;
 }
 
-.from-header p {
+.form-header p {
     color: #673ab7;
     border-bottom: 2px solid #673ab7;
     width: 100%;
@@ -62,15 +69,7 @@ textarea {
     margin: 0 auto;
     text-transform: uppercase;
     height: 45px;
-    list-style: 45px;
-}
-
-.frem-body {
-    padding: 30px;
-}
-
-.titulo-form {
-    margin-bottom: 15px;
+    line-height: 45px; 
 }
 
 .form-body {
@@ -97,12 +96,13 @@ textarea {
     display: block;
 }
 
-.caixaOpcinal{
+
+.caixaOpcional{
     display: inline-block;
-    margin: 0 30px 0 30px;
+    margin: 0 30px;
 }
 
-.caixaOpcinal li{
+.caixaOpcional li{
     list-style: none;
     margin-bottom: 5px;
 }
@@ -113,9 +113,10 @@ textarea {
     border: 2px solid transparent;
     width: 150px;
     height: 50px;
-    cursor:pointer;
+    cursor: pointer;
     text-transform: uppercase;
     transition: 0.5s;
+    border-radius: 5px;
 }
 
 .btn-submit:hover{
